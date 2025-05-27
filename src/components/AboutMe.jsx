@@ -1,6 +1,6 @@
-import {Mail} from "./Mail";
-import {LeftNavigation} from "./LeftNavigation";
-import AboutmeCss from "../css/AboutMe.css";
+import "./Mail";
+import "./LeftNavigation";
+import "../css/AboutMe.css";
 import {GoBack} from "./GoBack";
 
 export function AboutMe({ onBack }) {

@@ -1,4 +1,4 @@
-import {NavigationCss} from '../css/Navigation.css'
+import '../css/Navigation.css'
 
 export function Navigation({ onNavigate }){
     return (    <div className="navigation">

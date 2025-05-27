@@ -1,13 +1,13 @@
-import {Entrancecss} from '../css/Entrance.css';
-import {Navigation} from "./Navigation";
-import {LeftNavigation} from "./LeftNavigation";
-import {Mail} from "./Mail";
+import  '../css/Entrance.css';
+import  "./Navigation";
+import "./LeftNavigation";
+import  "./Mail";
 
 export function Entrance(){
     return (
 
     <>
-       <img className={"ardadrawings"} src={"ardaçizim.png"}/>
+       <img className={"ardadrawings"} src={"ardaçizim.png"} alt={"2"}/>
        <div className="text-area">
            <p className="entrance-writings">Arda Onur</p>
            <p className="entrance-title">Software Developer</p>

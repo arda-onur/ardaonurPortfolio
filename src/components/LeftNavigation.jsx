@@ -1,4 +1,4 @@
-import {LeftNavigationCss} from "../css/LeftNavigation.css"
+import  "../css/LeftNavigation.css"
 
 export function LeftNavigation(){
 

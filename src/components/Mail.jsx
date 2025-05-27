@@ -1,4 +1,4 @@
-import MailCss from "../css/Mail.css";
+import "../css/Mail.css";
 export function Mail(){
     return (
 
