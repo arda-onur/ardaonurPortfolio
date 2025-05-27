@@ -1,0 +1,23 @@
+.mail-button {
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    transform: translateY(-300px)
+               translatex(10px);
+
+}
+
+.mail-button img {
+    width: 80px;
+    height: 80px;
+    transition: transform 0.2s ease;
+
+}
+
+.mail-button img:hover {
+    transform: scale(1.1);
+}

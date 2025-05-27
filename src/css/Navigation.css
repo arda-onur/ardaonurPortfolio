@@ -1,0 +1,25 @@
+.navigation{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 40%;
+    height: 40px;
+    left: 61vh;
+    display: flex;
+    gap: 100px; /* İstediğin boşluk değeri */
+
+}
+
+.navigation button{
+    font-family: "Arial ", Helvetica, sans-serif;
+    margin-top: 2%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+
+}
+
+.navigation button:hover{
+    border-bottom: 2px solid black;
+}
