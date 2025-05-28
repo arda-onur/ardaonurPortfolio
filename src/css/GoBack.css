@@ -24,8 +24,8 @@
         position: absolute;
         width: 5vh;
         height: 5vh;
-        top: 55vh;
-        left: 12.5vh;
+        top: 62vh;
+        left: 14vh;
         transform: translate(40vw, 30vh) scale(1);
         transition: transform 0.2s ease;
     }

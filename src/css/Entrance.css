@@ -88,7 +88,7 @@ body {
     .cite{
         font-size: 2rem;
         font-family: "Brush Script MT", cursive;
-        margin-top: 3rem !important;
+        margin-top: 1rem !important;
     }
     body {
         background-image:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../assets/images/background.png');

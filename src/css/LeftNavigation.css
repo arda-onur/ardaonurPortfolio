@@ -30,5 +30,34 @@ p{
 }
 
 @media only screen and (max-width: 480px) {
+    .leftbar{
+        position: relative;
+        background: antiquewhite;
+        height: 30vh;
+        width: 20vh;
+        top: 60vh;
+        box-shadow: 6px 2px 9px 0px #000000;
+        border-radius: 0px 55px 55px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 5px;
 
+    }
+
+    .leftbar svg {
+
+        width: 30px;
+        height: 30px;
+    }
+
+    .leftbar a:last-child {
+        margin-bottom: 20px;
+    }
+
+    p{
+        color: black;
+        font-style: oblique;
+    }
 }
