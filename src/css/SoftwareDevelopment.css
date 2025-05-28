@@ -26,11 +26,11 @@
     .developmentDiv{
         position: absolute;
         width: 40vh;
-        height: 58vh;
+        height: 56vh;
         top: 65vw;
         left:7vh;
         transform: translate(8vh, -15vh);
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         font-family: system-ui, sans-serif;
         background-color: antiquewhite;
         background-color: rgba(250, 235, 215, 0.9);
