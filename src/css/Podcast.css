@@ -2,7 +2,9 @@
 
     transform: translate(140vh,-3vh);
 }
-
+iframe{
+    width: 20%;
+}
 .aboutPodcastDiv{
     position: absolute;
     width: 56vh;
@@ -43,11 +45,12 @@
     .PodcastTrailer{
 
         transform: translate(0vh,-34vh);
-        width: 400vw;
-        height: 10vw;
+
 
     }
-
+    iframe{
+        width: 100%;
+    }
     .aboutPodcastDiv{
         position: absolute;
         width: 45vh;
@@ -67,12 +70,12 @@
     .aboutPodcastDiv p{
         margin: 12px;
         opacity: 1;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .podcastButton{
         position: absolute;
-        top: 83vh;
+        top: 84vh;
         left: 28.5vh;
         transform-origin: center center;
         transition: transform 0.2s ease;

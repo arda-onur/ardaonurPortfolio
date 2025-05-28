@@ -25,7 +25,7 @@ export function Podcast({ onBack }) {
               <iframe
                   src="https://open.spotify.com/embed/episode/1TodAG2z8b9TMNctH6cLkl?utm_source=generator&theme=0"
                   title={"podcast"}
-                  width="25%" height="200" frameBorder="0" allowFullScreen=""
+                  frameBorder="0" allowFullScreen=""
                   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                   loading="lazy"></iframe>
           </div>
