@@ -1,8 +1,9 @@
 .aboutmeDiv{
     position: absolute;
-    width: 55vh;
-    height: 65vh;
-    transform: translate(50vh, -28vh);
+     top: 23vw;
+    width: 65vh;
+    height:55vh;
+    transform: translate(50vh, -30vh);
     font-size: 1.1rem;
     font-family: "Monaco", cursive;
     background-color: antiquewhite;
@@ -13,6 +14,7 @@
 }
 
 .aboutmeDiv p{
+    margin: 10px;
     opacity: 1;
 }
 .aboutmeFoto{
@@ -32,4 +34,46 @@
 @keyframes aboutmeBounce{
     0%   { opacity: 0; transform: translate(50vh, -10vh) }
     100% { opacity: 1; transform: translate(50vh, -25vh)  }
+}
+@media only screen and (max-width: 480px) {
+    .aboutmeDiv{
+        position: absolute;
+        width: 40vh;
+        height: 42vh;
+        top: 100vw;
+        right: 2.5vh;
+        transform: translate(10vh, -20vh);
+        font-size: 1.1rem;
+        font-family: "Monaco", cursive;
+        background-color: antiquewhite;
+        background-color: rgba(250, 235, 215, 0.9);
+        border-radius: 25px;
+        animation: aboutmeBounce 2s ease 0s 1 forwards;
+        border: 1px solid black;
+    }
+
+    .aboutmeDiv p{
+        transform: translate(0vh, 5vh);
+        margin: 10px;
+        opacity: 1;
+       font-size: 10px;
+    }
+    .aboutmeFoto{
+        position: absolute;
+        top: 10vh;
+        right: 12vh;
+        width: 40%;
+        height: 15%;
+        border-radius: 66px;
+        animation: ardaBounce2 2s ease 0s 1 forwards;
+    }
+
+    @keyframes ardaBounce2{
+        0%   { opacity: 0; transform: translate(0vh, 5vh) }
+        100% { opacity: 1; transform: translate(0vh, 0)  }
+    }
+    @keyframes aboutmeBounce{
+        0%   { opacity: 0; transform: translate(0vh, -10vh) }
+        100% { opacity: 1; transform: translate(0vh, -25vh)  }
+    }
 }

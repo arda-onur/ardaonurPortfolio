@@ -18,3 +18,27 @@
     width: 20vh;
     border-radius: 15px;
 }
+
+@media only screen and (max-width: 480px) {
+    .go-back-icon {
+        position: absolute;
+        width: 5vh;
+        height: 5vh;
+        top: 55vh;
+        left: 12.5vh;
+        transform: translate(40vw, 30vh) scale(1);
+        transition: transform 0.2s ease;
+    }
+
+    .go-back-icon:hover {
+        transform: translate(40vw, 30vh) scale(1.2);
+    }
+    .go-back-button{
+        background: none;
+        border: none;
+        cursor: pointer;
+        width: 20vh;
+        border-radius: 15px;
+    }
+
+}

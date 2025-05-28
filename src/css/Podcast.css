@@ -39,3 +39,52 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+@media only screen and (max-width: 480px) {
+    .PodcastTrailer{
+
+        transform: translate(0vh,-34vh);
+        width: 400vw;
+        height: 10vw;
+
+    }
+
+    .aboutPodcastDiv{
+        position: absolute;
+        width: 45vh;
+        height: 33vh;
+        top: 55vh;
+        font-size: 1.1rem;
+        font-family: "Monaco", cursive;
+        background-color: antiquewhite;
+        background-color: rgba(250, 235, 215, 0.9);
+        border-radius: 25px;
+        animation: aboutmeBounce 2s ease 0s 1 forwards;
+        border: 1px solid black;
+    }
+
+
+    .aboutPodcastDiv p{
+        margin: 12px;
+        opacity: 1;
+        font-size: 15px;
+    }
+
+    .podcastButton{
+        position: absolute;
+        top: 77vh;
+        left: 25vh;
+        transform-origin: center center;
+        transition: transform 0.2s ease;
+        border-radius: 50%;
+        background-color: antiquewhite;
+        height: 5vh;
+        border: 2px solid black;
+
+    }
+
+
+    .podcastButton:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}

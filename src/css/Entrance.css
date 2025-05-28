@@ -43,3 +43,58 @@ body {
     background-repeat: repeat;
     background-position: center;
 }
+
+@media only screen and (max-width: 480px) {
+    .text-area {
+        position: absolute;
+        text-align: center;
+        transform: translate(0vh, -30vh);
+
+    }
+    .ardadrawings{
+        position: absolute;
+        top: 8vh;
+        width: 50%;
+        height: 35%;
+        transform: scaleX(-1);
+        animation: ardaBounce 2s ease 0s 1 forwards;
+    }
+
+    @keyframes ardaBounce{
+        0%   { opacity: 0; transform: translate(13vh, 5vh) scaleX(-1); }
+        100% { opacity: 1; transform: translate(13vh, 0) scaleX(-1); }
+    }
+
+    .text-area {
+
+        position: absolute;
+        text-align: center;
+        transform: translate(0vh, 0vh);/* Görsel olarak yukarı çeker, boşluk oluşturmaz */
+        height: auto;
+    }
+
+    .entrance-writings {
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 0;
+        font-family: "Arial Black", Helvetica, sans-serif;
+
+    }
+    .entrance-title {
+        font-size: 1rem;
+        margin: 0.5rem 0 0;
+    }
+
+    .cite{
+        font-size: 2rem;
+        font-family: "Brush Script MT", cursive;
+        margin-top: 3rem !important;
+    }
+    body {
+        background-image:linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../assets/images/background.png');
+        background-size: initial;
+        background-repeat: repeat;
+        background-position: center;
+    }
+
+}
