@@ -17,6 +17,11 @@
     border: none;
     cursor: pointer;
     font-size: 1.25rem;
+    -webkit-appearance: none; /* iOS’taki default stili iptal eder */
+    -moz-appearance: none;
+    appearance: none;
+    color: black;             /* yazı rengini siyah yap */
+    /* arka plan zaten none idi ama tekrar edelim */
 
 }
 

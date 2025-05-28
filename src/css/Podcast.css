@@ -11,7 +11,7 @@ iframe{
     height: 30vh;
     top: 57vh;
     font-size: 1.1rem;
-    font-family: "Monaco", cursive;
+    font-family: system-ui, sans-serif;
     background-color: antiquewhite;
     background-color: rgba(250, 235, 215, 0.9);
     border-radius: 25px;
@@ -58,7 +58,7 @@ iframe{
         left: 20px;
         top: 55vh;
         font-size: 1.1rem;
-        font-family: "Monaco", cursive;
+        font-family: system-ui, sans-serif;
         background-color: antiquewhite;
         background-color: rgba(250, 235, 215, 0.9);
         border-radius: 25px;

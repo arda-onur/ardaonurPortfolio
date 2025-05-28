@@ -5,7 +5,7 @@
     height:55vh;
     transform: translate(50vh, -30vh);
     font-size: 1.1rem;
-    font-family: "Monaco", cursive;
+    font-family: system-ui, sans-serif;
     background-color: antiquewhite;
     background-color: rgba(250, 235, 215, 0.9);
     border-radius: 25px;
@@ -44,7 +44,7 @@
         right: 5vh;
         transform: translate(10vh, -15vh);
         font-size: 1.1rem;
-        font-family: "Monaco", cursive;
+        font-family: system-ui, sans-serif;
         background-color: antiquewhite;
         background-color: rgba(250, 235, 215, 0.9);
         border-radius: 25px;
@@ -57,6 +57,7 @@
         margin: 10px;
         opacity: 1;
        font-size: 9px;
+        font-family: system-ui, sans-serif;
     }
     .aboutmeFoto{
         position: absolute;
