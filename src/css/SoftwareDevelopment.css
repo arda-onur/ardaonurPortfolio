@@ -1,0 +1,48 @@
+.developmentDiv{
+    position: absolute;
+    top: 20vw;
+    left: 7vw;
+    width: 65vh;
+    height:55vh;
+    transform: translate(50vh, -30vh);
+    font-size: 0.9rem;
+    font-family: system-ui, sans-serif;
+    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.9);
+    border-radius: 25px;
+    animation: aboutmeBounce 2s ease 0s 1 forwards;
+    border: 1px solid black;
+}
+
+.developmentDiv p{
+    margin: 10px;
+    opacity: 1;
+}
+.goback{
+    position: absolute;
+}
+
+@media only screen and (max-width: 480px) {
+    .developmentDiv{
+        position: absolute;
+        width: 40vh;
+        height: 58vh;
+        top: 65vw;
+        left:7vh;
+        transform: translate(8vh, -15vh);
+        font-size: 0.8rem;
+        font-family: system-ui, sans-serif;
+        background-color: antiquewhite;
+        background-color: rgba(250, 235, 215, 0.9);
+        border-radius: 25px;
+        animation: aboutmeBounce 2s ease 0s 1 forwards;
+        border: 1px solid black;
+    }
+
+    .developmentDiv p{
+        margin: 10px;
+        opacity: 1;
+    }
+
+
+}

@@ -1,9 +1,23 @@
 .PodcastTrailer{
+    transform: none !important;
+    overflow-x: auto;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 600px;          /* ya da istediğin max genişlik */
+    width: 90%;                /* container genişliğini ayarla */
+    margin: 2rem 1rem 2rem auto;
 
-    transform: translate(140vh,-3vh);
 }
 iframe{
     width: 20%;
+}
+
+.PodcastTrailer iframe {
+    width: 100% !important;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    border: none;
 }
 .aboutPodcastDiv{
     position: absolute;
@@ -44,7 +58,6 @@ iframe{
 @media only screen and (max-width: 480px) {
     .PodcastTrailer{
 
-        transform: translate(0vh,-34vh);
 
 
     }
