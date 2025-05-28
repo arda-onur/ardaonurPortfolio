@@ -1,6 +1,7 @@
 import "./Mail";
 import "./LeftNavigation";
 import "../css/AboutMe.css";
+import "../css/GoBack.css"
 import {GoBack} from "./GoBack";
 
 export function AboutMe({ onBack }) {

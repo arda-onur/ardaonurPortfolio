@@ -9,6 +9,7 @@
     background-color: rgba(250, 235, 215, 0.9);
     border-radius: 25px;
     animation: aboutmeBounce 2s ease 0s 1 forwards;
+    border: 1px solid black;
 }
 
 .aboutmeDiv p{
@@ -31,24 +32,4 @@
 @keyframes aboutmeBounce{
     0%   { opacity: 0; transform: translate(50vh, -10vh) }
     100% { opacity: 1; transform: translate(50vh, -25vh)  }
-}
-.go-back-icon {
-    position: absolute;
-    width: 5vh;
-    height: 5vh;
-    top: 60vh;
-    left: 15vh;
-    transform: translate(40vw, 30vh) scale(1);
-    transition: transform 0.2s ease;
-}
-
-.go-back-icon:hover {
-    transform: translate(40vw, 30vh) scale(1.2);
-}
-.go-back-button{
-    background: none;
-    border: none;
-    cursor: pointer;
-    width: 20vh;
-   border-radius: 15px;
 }

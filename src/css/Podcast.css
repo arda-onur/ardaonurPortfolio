@@ -1,0 +1,41 @@
+.PodcastTrailer{
+
+    transform: translate(140vh,-3vh);
+}
+
+.aboutPodcastDiv{
+    position: absolute;
+    width: 56vh;
+    height: 30vh;
+    top: 57vh;
+    font-size: 1.1rem;
+    font-family: "Monaco", cursive;
+    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.9);
+    border-radius: 25px;
+    animation: aboutmeBounce 2s ease 0s 1 forwards;
+    border: 1px solid black;
+}
+
+.aboutPodcastDiv p{
+    opacity: 1;
+}
+
+.podcastButton{
+    position: absolute;
+    top: 75vh;
+    left: 95vh;
+    transform-origin: center center;
+    transition: transform 0.2s ease;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    height: 5vh;
+    border: 2px solid black;
+
+}
+
+
+.podcastButton:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

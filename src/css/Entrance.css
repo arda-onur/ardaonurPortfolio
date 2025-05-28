@@ -16,7 +16,7 @@
 
     position: absolute;
     text-align: center;
-    transform: translate(45vh, 0vh);/* Görsel olarak yukarı çeker, boşluk oluşturmaz */
+    transform: translate(45vh, -7vh);/* Görsel olarak yukarı çeker, boşluk oluşturmaz */
     height: auto;
 }
 
